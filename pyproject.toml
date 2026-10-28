@@ -15,7 +15,7 @@ dependencies = [
   "pyworld==0.3.5",
   "pyyaml==6.0.3",
   "semver==3.0.4",
-  "setuptools<82", # NOTE: pyworldがpkg_resourcesを使っている。
+  "setuptools<85", # NOTE: pyworldがpkg_resourcesを使っている。
   "soundfile==0.14.0",
   "soxr==1.1.0",
   "starlette>=0.45.3",
@@ -42,7 +42,7 @@ build = [
 ]
 dev = [
   "coveralls==4.1.0",
-  "httpx2==2.9.1", # NOTE: required by fastapi.testclient.TestClient (fastapi's unmanaged dependency)
+  "httpx2==2.12.0", # NOTE: required by fastapi.testclient.TestClient (fastapi's unmanaged dependency)
   "mypy==2.3.0",
   "pip-audit==2.10.1",
   "pre-commit==4.6.1",
