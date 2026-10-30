@@ -15,7 +15,7 @@ dependencies = [
   "pyworld==0.3.5",
   "pyyaml==6.0.3",
   "semver==3.1.0",
-  "setuptools<82", # NOTE: pyworldがpkg_resourcesを使っている。
+  "setuptools<85", # NOTE: pyworldがpkg_resourcesを使っている。
   "soundfile==0.14.0",
   "soxr==1.1.0",
   "starlette>=0.45.3",
